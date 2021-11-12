@@ -1,0 +1,232 @@
+
+    *{margin: 0px;}
+    body{
+        font-family: 'PT Sans', sans-serif
+    }
+    .nav{
+        position: relative;
+        background-color: #33333a;
+        padding: 20px 40px 20px 10px;
+        
+    }
+    .nav li{
+        display: inline;
+        list-style-type: none;
+        color: white;
+        font-size: 20px;
+        padding: 20px 40px 20px 10px;
+  
+    }
+  
+    li:hover{
+        background-color: #5e5e64;
+    }
+  
+    .container-with-image{
+        background-image: url("showcase.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:16cm;
+        width: 100%;
+        color: white;
+        text-align: center;
+         
+    }
+  
+  
+  .section1{
+      position: relative;
+      top: 2.5cm;
+      margin-right: 10%;
+      margin-left: 10%;
+  }
+  h1{font-size: 80px; font-weight: bold;}
+  h2{font-size: 30px; font-weight: bold;}
+  h3{font-size: 20px; }
+  
+  h1, h2, h3 ,h4 ,h5{
+      margin-bottom: 1cm;
+      
+  }
+  .music-container{
+      background-color: rgb(53, 49, 49);
+      height:43cm;
+      width: 100%;
+      margin-top: -1cm;
+      color: white;
+      text-align: center;
+       
+
+  }
+  .section2{
+      position: relative;
+      top: 1cm;
+      margin-right: 10%;
+      margin-left: 10%;
+  }
+  h4{font-size: 60px;}
+  h5{font-size: 30px;}
+  .short-text{
+      font-size: 25px;
+      margin-bottom: 1.5cm;
+      
+  }
+  .section2 > a{
+      background-color: rgba(255, 0, 0, 0.568);
+      padding: 20px 10px;
+      text-decoration: none;
+      color: white;
+      font-size: 25px;
+      margin-bottom: 1cm;
+      
+  }
+
+  .orange-music{
+      margin-top: 2cm;
+      font-size: 22px;
+      margin-bottom: 1cm;
+    
+  }
+
+.mockup1{
+    height:27cm;
+    width: 100%;
+    margin-top: 1cm;
+}
+
+.note-container{
+ 
+    margin-right: 10%; margin-left: 10%;
+     
+    background-color: whitesmoke;
+
+}
+
+.note-container > h6{
+    position: relative;
+    font-size: 35px;
+    text-align: center;
+    top: 1cm;
+}
+
+.note-container > p{
+    position: relative;
+    font-size: 25px;
+    margin-top:2cm ;
+    text-align: center;
+    line-height: 1cm;
+    margin-bottom: 1cm;
+
+}
+
+.note-container > a{
+    margin-bottom: 2cm;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 15px 15px;
+    background-color: rgb(48, 15, 196);
+    margin-left: 44%;
+    color: white;
+    
+}
+.note-container > a:hover{
+    background-color: rgb(66, 95, 226);
+}
+
+.note-container > img{
+    height: 25cm;
+    width: 100%;
+    margin-top: 0.5cm;
+    margin-bottom: 1cm;
+}
+.entertainment-container{
+    background-image: url("images/intertainment-backg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 15cm;
+    color: white;
+}
+
+.entertainment-container > div{
+    position: relative;
+    font-size: 40px;
+    font-weight: bold;
+    top: 5cm;
+    text-align: center;
+     
+
+}
+
+.entertainment-container > p{
+    position: relative;
+    font-size: 27px;
+    margin-left: 5%;
+    text-align: center;
+    margin-right: 5%;
+    top: 6cm;
+    line-height: 1.3cm;
+     
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(600px,1fr));
+}
+
+.card-container > .cards > img{
+    height: 10cm;
+    width: 90%;
+    margin-left: 8%;
+}
+
+.gift-card-text{
+    font-size: 35px;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+     
+}
+
+.gift-card-content{
+    font-size:22px;
+    line-height: 1cm;
+    margin-bottom: 0.5cm;
+}
+.arealdy{
+    margin-bottom: 0.6cm;
+}
+.jump-to-top{
+    margin-top: 0.7cm;
+    font-size: 25px;
+    text-decoration: none;
+}
+.minor-footer > table{
+    width: 100%;
+    background-color:rgb(29, 27, 27);
+    padding: 20px;
+    color: white;
+}
+th{
+    font-size: 20px;
+    margin-left: 0cm;
+}
+td{
+    padding: 8px 8px;
+    padding-left: 1.5cm;
+}
+@media screen and (max-width: 900px){
+    .music-container{
+        height:35cm;
+        margin-top: -1cm;
+ 
+    }
+    .mockup1{
+        height: 16cm;
+    }
+    .note-container > img{
+        height: 18cm;
+    }
+}
